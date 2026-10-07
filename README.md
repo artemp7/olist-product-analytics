@@ -13,18 +13,18 @@ Olist: почему клиенты не возвращаются
 Структура проекта
 text
 brazil_pp/
-├── data/
-│   ├── raw_data/                    # исходные CSV
-│   └── processed_data/              # очищенные данные, графики
-├── notebooks/
-│   ├── 01_load_and_clean.ipynb      # очистка и мастер-таблица
-│   ├── 03_retention.ipynb           # когортный анализ
-│   ├── 04_hypotheses.ipynb          # проверка гипотез
-│   └── 05_rfm.ipynb                 # RFM-сегментация
-├── dashboard/
-│   ├── olist_dashboard.pbix         # дашборд Power BI
-│   └── screenshots/                 # скриншоты страниц
-└── README.md
+data/
+    raw_data/                    # исходные CSV
+    processed_data/              # очищенные данные, графики
+notebooks/
+    01_load_and_clean.ipynb      # очистка и мастер-таблица
+    03_retention.ipynb           # когортный анализ
+    04_hypotheses.ipynb          # проверка гипотез
+    05_rfm.ipynb                 # RFM-сегментация
+dashboard/
+    olist_dashboard.pbix         # дашборд Power BI
+    screenshots/                 # скриншоты страниц
+README.md
 Как запустить
 bash
 pip install -r requirements.txt
